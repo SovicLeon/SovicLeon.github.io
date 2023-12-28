@@ -213,6 +213,57 @@ nav a.icon {
     -webkit-transition: background 1s;
 }
 
+#cv {
+    display: inline-block;
+    width: 95%;
+    text-align: center;
+    padding: 2% 2% 3%;
+    color: #3B8BEB;
+}
+
+#cv p {
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cv p a {
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    width: 50%;
+    background-color: #5d9be7;
+    border-radius: 5px;
+    margin: 5px 0;
+    -webkit-transition: background 1s;
+    font-size: 23px;
+}
+
+#cv p a:hover {
+    background-color: #8dbaf1;
+    -webkit-transition: background 1s;
+}
+
+#cv p span {
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    width: 50%;
+    background-color: #5d9be7;
+    border-radius: 5px;
+    margin: 5px 0;
+    -webkit-transition: background 1s;
+    font-size: 23px;
+}
+
+#cv p span:hover {
+    background-color: #8dbaf1;
+    -webkit-transition: background 1s;
+}
+
 footer {
     display: flex;
     align-items: center;
@@ -289,6 +340,12 @@ footer {
     }
 
     #contact {
+        font-size: 20px;
+        padding: 3% 0%;
+        width: 100%;
+    }
+
+    #cv {
         font-size: 20px;
         padding: 3% 0%;
         width: 100%;

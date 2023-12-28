@@ -358,4 +358,12 @@ footer {
     #contact p span {
         width: 80%;
     }
+
+    #cv p a {
+        width: 80%;
+    }
+
+    #cv p span {
+        width: 80%;
+    }
 }

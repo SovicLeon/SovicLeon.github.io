@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
     <link rel="icon" href="img/icon.png">
     <title>Leon Sovič</title>
 </head>
+
 <body>
     <nav id="navbar">
         <a class="home" onclick="topFunction()" href="">Leon Sovič</a>
@@ -39,7 +41,7 @@
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
 
-        function width () {
+        function width() {
             if (screen.width >= 670) {
                 return "row";
             } else {
@@ -71,7 +73,10 @@
 
         <div id="intro">
             <h2>Introduction</h2>
-            <p class="text">Hi! My name is Leon Sovič and I am the author of this website. I made this website for the purpose of introducing myself as a software developer. I am a 3rd year student at FERI Maribor studying Computer Science and Information Technologies(<a href="https://feri.um.si/en/study/programmes/first-cycle/vs/rit/" target="blank">R-IT VS</a>).</p>
+            <p class="text">Hi! My name is Leon Sovič and I am the author of this website. I made this website for the
+                purpose of introducing myself as a software developer. I am a 3rd year student at FERI Maribor studying
+                Computer Science and Information Technologies(<a
+                    href="https://feri.um.si/en/study/programmes/first-cycle/vs/rit/" target="blank">R-IT VS</a>).</p>
         </div>
 
         <div id="cv">
@@ -83,22 +88,41 @@
             <div class="grid">
 
                 <div class="project">
-                    <i class="fa-brands fa-php"></i> 
-                    <h3>Fitness tracking app</h3>
-                    <p>Written in plain HTML, CSS, PHP and some JS I build this web app just using these four technologies to master the basics for my final project in high school. </p>
+                    <i class="fa-brands fa-js"></i>
+                    <h3>TicTacToe with sockets in NodeJS</h3>
+                    <p>Written in JavaScript using sockets.io.</p>
+                    <p>Run 2 instances of the server, with different ports. The game is displayed with the website
+                        opening on the specific port of the server.</p>
                     <p></p>
-                    <a href="https://github.com/SovicLeon/FitTrack" target="blank"><i class="fa fa-github"></i> Github Reposetory</a>
-                    <a href="https://leonsovic.000webhostapp.com/main/index.php" target="blank"><i class="fa fa-eye"></i> View Live Site</a>
+                    <a href="https://github.com/SovicLeon/TicTacToe" target="blank"><i class="fa fa-github"></i> Github
+                        Reposetory</a>
+                </div>
+
+                <div class="project">
+                    <i class="fa-brands fa-js"></i>
+                    <h3>POW blockchain in NodeJS</h3>
+                    <p>Written in JavaScript using sockets.io and a bit of Express for visual presentation.</p>
+                    <p>Run as many servers as you want, connect them and they will eventually sync together.</p>
+                    <p>As it its POW it all the servers or miners compete with who can provide the next correct block to
+                        be added to the chain. The new block is confirmed/validated by the miner itself and also the
+                        other miners to accept the new block/chain.</p>
+                    <p></p>
+                    <a href="https://github.com/SovicLeon/NodeJSblockchain" target="blank"><i class="fa fa-github"></i>
+                        Github Reposetory</a>
                 </div>
 
                 <div class="project">
                     <i class="fa-brands fa-android"></i>
                     <h3>Login protected notes mobile app</h3>
                     <p>Made with Kotlin and jetpack compose.</p>
-                    <p>After a mobile app development class at my university where I created 2 basic apps first using data binding, xml, activities and then navigation and fragments, I tried on my own with jetpack compose. </p>
+                    <p>After a mobile app development class at my university where I created 2 basic apps first using
+                        data binding, xml, activities and then navigation and fragments, I tried on my own with jetpack
+                        compose. </p>
                     <p></p>
-                    <a href="https://github.com/SovicLeon/EncryptedNotesAndroid" target="blank"><i class="fa fa-github"></i> Github Reposetory</a>
-                    <a href="https://play.google.com/store/apps/details?id=com.leonsovic.encryption&pli=1" target="blank"><i class="fa fa-eye"></i> View PlayStore Page</a>
+                    <a href="https://github.com/SovicLeon/EncryptedNotesAndroid" target="blank"><i
+                            class="fa fa-github"></i> Github Reposetory</a>
+                    <a href="https://play.google.com/store/apps/details?id=com.leonsovic.encryption&pli=1"
+                        target="blank"><i class="fa fa-eye"></i> View PlayStore Page</a>
                 </div>
 
                 <div class="project">
@@ -107,55 +131,8 @@
                     <p>Written in C, using server and client.</p>
                     <p>Using C sockets for file transfer, works with any file type, also transfers file structure.</p>
                     <p></p>
-                    <a href="https://github.com/SovicLeon/FileTransferUsingSocketsInC" target="blank"><i class="fa fa-github"></i> Github Reposetory</a>
-                </div>
-
-                <div class="project">
-                    <i class="fa-brands fa-js"></i>
-                    <h3>TicTacToe with sockets in NodeJS</h3>
-                    <p>Written in JavaScript using sockets.io.</p>
-                    <p>Run 2 instances of the server, with different ports. The game is displayed with the website opening on the specific port of the server.</p>
-                    <p></p>
-                    <a href="https://github.com/SovicLeon/TicTacToe" target="blank"><i class="fa fa-github"></i> Github Reposetory</a>
-                </div>
-
-                <div class="project">
-                    <i class="fa-brands fa-js"></i>
-                    <h3>POW blockchain in NodeJS</h3>
-                    <p>Written in JavaScript using sockets.io and a bit of Express for visual presentation.</p>
-                    <p>Run as many servers as you want, connect them and they will eventually sync together.</p>
-                    <p>As it its POW it all the servers or miners compete with who can provide the next correct block to be added to the chain. The new block is confirmed/validated by the miner itself and also the other miners to accept the new block/chain.</p>
-                    <p></p>
-                    <a href="https://github.com/SovicLeon/NodeJSblockchain" target="blank"><i class="fa fa-github"></i> Github Reposetory</a>
-                </div>
-
-                <div class="project">
-                    <i class="fa-solid fa-gamepad"></i>
-                    <h3>Unity game</h3>
-                    <p>Made in Unity with C# with a couple of friends.</p>
-                    <p>Simple 2d 8bit style game with rougelike and rougelite elements.</p>
-                    <p>Made scripts, sprites and game mechanics. Is playable, has enemies, a boss, powerups, health, level and a weapon.</p>
-                    <p></p>
-                    <a href="https://github.com/SovicLeon/RPS_projekt_game" target="blank"><i class="fa fa-github"></i> Github Reposetory</a>
-                </div>
-
-                <div class="project">
-                    <i class="fa-brands fa-android"></i>
-                    <h3>Mountain trail tracker mobile app</h3>
-                    <p>Made with Kotlin, navigation and fragments.</p>
-                    <p>My second mobile app. Incorporates a map with OpenStreetMap where you can draw your trail and the length and elevation will be calcluated automaticaly and be added to your trails and saved locally. The elevation calculation utilizes a API that returns the elevation difference.</p>
-                    <p></p>
-                    <a href="https://github.com/SovicLeon/MountainTrailTrackerMobileApp" target="blank"><i class="fa fa-github"></i> Github Reposetory</a>                    
-                </div>
-
-                <div class="project">
-                    <i class="fa-brands fa-docker"></i>
-                    <h3>Docker deployable project</h3>
-                    <p>Made with Docker compose and is deployable instantly.</p>
-                    <p>Inside is a project I made as a task for a position at a company. It has mulitple Dockerfiles for each aspect of the whole app. It should display scraped apartment listings with paging.</p>
-                    <p>It has a simple NodeJS Express backend that returns data from PostgreSQL, the frontend is a simple React app that has paging and the web scraper where I got the data and then on setup the Dockerfile puts the data into the PostgreSQL database.</p>
-                    <p></p>
-                    <a href="https://github.com/SovicLeon/Task" target="blank"><i class="fa fa-github"></i> Github Reposetory</a>                    
+                    <a href="https://github.com/SovicLeon/FileTransferUsingSocketsInC" target="blank"><i
+                            class="fa fa-github"></i> Github Reposetory</a>
                 </div>
 
                 <div class="project">
@@ -165,36 +142,98 @@
                     <p>Using Python, Numpy and manual calculation for better usage I used OpenCV.</p>
                     <p></p>
                     <p>Outputs many version of the image with using kmeans and different settings for it.</p>
-                    <a href="https://github.com/SovicLeon/kmeansPython" target="blank"><i class="fa fa-github"></i> Github Reposetory</a>
+                    <a href="https://github.com/SovicLeon/kmeansPython" target="blank"><i class="fa fa-github"></i>
+                        Github Reposetory</a>
                     <p></p>
                     <p>Image filtering and edge detectors.</p>
                     <p>Roberts, Prewitt, Sobel and Canny.</p>
-                    <a href="https://github.com/SovicLeon/ImageFilteringEdgeDetectors" target="blank"><i class="fa fa-github"></i> Github Reposetory</a>
+                    <a href="https://github.com/SovicLeon/ImageFilteringEdgeDetectors" target="blank"><i
+                            class="fa fa-github"></i> Github Reposetory</a>
                     <p></p>
                     <p>Motion detection using colors.</p>
-                    <a href="https://github.com/SovicLeon/MotionDetectionUsingColors" target="blank"><i class="fa fa-github"></i> Github Reposetory</a>
+                    <a href="https://github.com/SovicLeon/MotionDetectionUsingColors" target="blank"><i
+                            class="fa fa-github"></i> Github Reposetory</a>
                 </div>
 
                 <div class="project">
                     <i class="fa-solid fa-code"></i>
                     <h3>Road and traffic quality app</h3>
-                    <p>A project with a backend, frontend, web scraper, face recognition and mobile app, made with others.</p>
-                    <p>Project that lets the user login with 2fa face recognition on the mobile app and send location and sensor data to the backend where it is calculated and saved.</p>
-                    <p>On the backend web app the saved and calculated sections are then combined with the data of the web scraper that gets traffic conter data for the relevant location based on GPS.</p>
-                    <p>On the front end app the user can view his live ride or any of his past on a map with sections displayed with the matching quality.</p>
-                    <p>The backend manages and connects everything. The backend requests/connects face detection, MongoDB and web scraper.</p>
+                    <p>A project with a backend, frontend, web scraper, face recognition and mobile app, made with
+                        others.</p>
+                    <p>Project that lets the user login with 2fa face recognition on the mobile app and send location
+                        and sensor data to the backend where it is calculated and saved.</p>
+                    <p>On the backend web app the saved and calculated sections are then combined with the data of the
+                        web scraper that gets traffic conter data for the relevant location based on GPS.</p>
+                    <p>On the front end app the user can view his live ride or any of his past on a map with sections
+                        displayed with the matching quality.</p>
+                    <p>The backend manages and connects everything. The backend requests/connects face detection,
+                        MongoDB and web scraper.</p>
                     <p></p>
                     <p>Frontend build in React.</p>
-                    <a href="https://github.com/SovicLeon/ProjektnaNaloga_SpletniDel_Frontend" target="blank"><i class="fa fa-github"></i> Github Reposetory</a>
+                    <a href="https://github.com/SovicLeon/ProjektnaNaloga_SpletniDel_Frontend" target="blank"><i
+                            class="fa fa-github"></i> Github Reposetory</a>
                     <p></p>
-                    <p>Backend build with NodeJS, Express and mongoose. Also contains the face recognition written in Python.</p>
-                    <a href="https://github.com/SovicLeon/ProjektnaNaloga_SpletniDel_Backend" target="blank"><i class="fa fa-github"></i> Github Reposetory</a>
+                    <p>Backend build with NodeJS, Express and mongoose. Also contains the face recognition written in
+                        Python.</p>
+                    <a href="https://github.com/SovicLeon/ProjektnaNaloga_SpletniDel_Backend" target="blank"><i
+                            class="fa fa-github"></i> Github Reposetory</a>
                     <p></p>
                     <p>Simple mobile app built with Kotlin.</p>
-                    <a href="https://github.com/SovicLeon/ProjektnaNaloga_MobilnaAplikacija" target="blank"><i class="fa fa-github"></i> Github Reposetory</a>
+                    <a href="https://github.com/SovicLeon/ProjektnaNaloga_MobilnaAplikacija" target="blank"><i
+                            class="fa fa-github"></i> Github Reposetory</a>
                     <p></p>
                     <p>Web scraper build with NodeJS and Express.</p>
-                    <a href="https://github.com/SovicLeon/ProjektnaNaloga_Scraper" target="blank"><i class="fa fa-github"></i> Github Reposetory</a>
+                    <a href="https://github.com/SovicLeon/ProjektnaNaloga_Scraper" target="blank"><i
+                            class="fa fa-github"></i> Github Reposetory</a>
+                </div>
+
+                <div class="project">
+                    <i class="fa-brands fa-php"></i>
+                    <h3>Fitness tracking app</h3>
+                    <p>Written in plain HTML, CSS, PHP and some JS I build this web app just using these four
+                        technologies to master the basics for my final project in high school. </p>
+                    <p></p>
+                    <a href="https://github.com/SovicLeon/FitTrack" target="blank"><i class="fa fa-github"></i> Github
+                        Reposetory</a>
+                    <!-- <a href="https://leonsovic.000webhostapp.com/main/index.php" target="blank"><i class="fa fa-eye"></i> View Live Site</a> -->
+                </div>
+
+                <div class="project">
+                    <i class="fa-solid fa-gamepad"></i>
+                    <h3>Unity game</h3>
+                    <p>Made in Unity with C# with a couple of friends.</p>
+                    <p>Simple 2d 8bit style game with rougelike and rougelite elements.</p>
+                    <p>Made scripts, sprites and game mechanics. Is playable, has enemies, a boss, powerups, health,
+                        level and a weapon.</p>
+                    <p></p>
+                    <a href="https://github.com/SovicLeon/RPS_projekt_game" target="blank"><i class="fa fa-github"></i>
+                        Github Reposetory</a>
+                </div>
+
+                <div class="project">
+                    <i class="fa-brands fa-android"></i>
+                    <h3>Mountain trail tracker mobile app</h3>
+                    <p>Made with Kotlin, navigation and fragments.</p>
+                    <p>My second mobile app. Incorporates a map with OpenStreetMap where you can draw your trail and the
+                        length and elevation will be calcluated automaticaly and be added to your trails and saved
+                        locally. The elevation calculation utilizes a API that returns the elevation difference.</p>
+                    <p></p>
+                    <a href="https://github.com/SovicLeon/MountainTrailTrackerMobileApp" target="blank"><i
+                            class="fa fa-github"></i> Github Reposetory</a>
+                </div>
+
+                <div class="project">
+                    <i class="fa-brands fa-docker"></i>
+                    <h3>Docker deployable project</h3>
+                    <p>Made with Docker compose and is deployable instantly.</p>
+                    <p>Inside is a project I made as a task for a position at a company. It has mulitple Dockerfiles for
+                        each aspect of the whole app. It should display scraped apartment listings with paging.</p>
+                    <p>It has a simple NodeJS Express backend that returns data from PostgreSQL, the frontend is a
+                        simple React app that has paging and the web scraper where I got the data and then on setup the
+                        Dockerfile puts the data into the PostgreSQL database.</p>
+                    <p></p>
+                    <a href="https://github.com/SovicLeon/Task" target="blank"><i class="fa fa-github"></i> Github
+                        Reposetory</a>
                 </div>
 
             </div>
@@ -202,10 +241,16 @@
 
         <div id="about">
             <h2>About</h2>
-            <p>I'm Leon Sovič, a full-time student studying Computer Science and Information Technologies at FERI. I've been programming since high school.</p> 
+            <p>I'm Leon Sovič, a full-time student studying Computer Science and Information Technologies at FERI. I've
+                been programming since high school.</p>
             <p>I have some personal and university projects listed on my GitHub profile.</p>
-            <p>My expertise lies in programming languages such as C, C++, JavaScript, React, Node.js, Express.js, PHP, Python(scripting and OpenCV), and scripting with Bash. Additionally, I have experience working with relational databases, specifically in SQL, as well as NoSQL databases like MongoDB. I also possess a solid understanding of computer networks, web development, a good grasp of Linux systems and basic computer vision knowledge.</p>
-            <p>Apart from my technical skills, I am fluent in English and have a good understanding of German, although I haven't been actively using it lately.</p>
+            <p>My expertise lies in programming languages such as C, C++, JavaScript, React, Node.js, Express.js, PHP,
+                Python(scripting and OpenCV), and scripting with Bash. Additionally, I have experience working with
+                relational databases, specifically in SQL, as well as NoSQL databases like MongoDB. I also possess a
+                solid understanding of computer networks, web development, a good grasp of Linux systems and basic
+                computer vision knowledge.</p>
+            <p>Apart from my technical skills, I am fluent in English and have a good understanding of German, although
+                I haven't been actively using it lately.</p>
         </div>
 
         <div id="lang">
@@ -237,15 +282,16 @@
     <script>
         // Hide navbar on scroll
         var prevScrollpos = window.pageYOffset;
-        window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-          if (prevScrollpos > currentScrollPos) {
-            document.getElementById("navbar").style.top = "0";
-          } else {
-            document.getElementById("navbar").style.top = "-55px";
-          }
-          prevScrollpos = currentScrollPos;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-55px";
+            }
+            prevScrollpos = currentScrollPos;
         }
     </script>
 </body>
+
 </html>
